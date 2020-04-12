@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-image: url("images/_DSC0473%20Edited.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+#nav-var{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+#fst{
+    clear: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 15px;
+    font-family: cursive;
+    
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars{
+    font-size: 30px;
+    color: #fff;
+}
+.navbar-toggle{
+    outline: none;
+}
+#about{
+    text-align: center;
+}
